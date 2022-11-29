@@ -33,6 +33,13 @@
 .AsADeveloper {
     padding: 0px 70px 0px 70px;
     padding-top: 180px;
+}
+
+.AsADeveloperHead {
+    padding-bottom: 50px;
+}
+
+.AsADeveloper-flex {
     display: flex;
     justify-content: space-between;
 }

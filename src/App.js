@@ -21,6 +21,7 @@ import BlogBody from "./Components/Blog/BlogBody/BlogBody";
 import CompanyHead from "./Components/Company/CompanyHead/CompanyHead";
 import CompanyBody from "./Components/Company/CompanyBody/CompanyBody";
 import DealRoomHead from "./Components/DealRoom/DealRoomHead/DealRoomHead";
+import AsADeveloperHead from "./Components/AsADeveloper/AsADeveloperHead/AsADeveloperHead";
 function App() {
   return (
     <div className="App">
@@ -63,12 +64,18 @@ function App() {
         </div>
 
         <div className="AsADeveloper">
-          <div className="AsADeveloperLeft">
-            <AsADeveloperLeft />
+          <div className="AsADeveloperHead">
+            <AsADeveloperHead />
           </div>
 
-          <div className="AsADeveloperRight">
-            <AsADeveloperRight />
+          <div className="AsADeveloper-flex">
+            <div className="AsADeveloperLeft">
+              <AsADeveloperLeft />
+            </div>
+
+            <div className="AsADeveloperRight">
+              <AsADeveloperRight />
+            </div>
           </div>
         </div>
         <div className="DealRoom-Container">

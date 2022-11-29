@@ -1,0 +1,31 @@
+.developerHead-tit {
+    font-weight: 900;
+    font-size: 30px;
+    color: #050505;
+}
+
+.developerHead-desc-cont {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    padding-top: 15px;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .AsADeveloper {
+        padding: 0px 0px 0px 0px;
+        padding-top: 180px;
+    }
+    .developerHead-desc-cont {
+        font-size: 15px;
+    }
+    .developerHead-desc1 {
+        width: 330px;
+        padding-bottom: 7px;
+    }
+    .developerHead-desc2 {
+        width: 340px;
+        padding-bottom: 7px;
+    }
+}

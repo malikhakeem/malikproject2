@@ -63,7 +63,7 @@
 }
 
 @media only screen and (max-width: 1150px) {
-    .AsADeveloper {
+    .AsADeveloper-flex {
         display: flex;
         flex-direction: column;
         align-items: center;

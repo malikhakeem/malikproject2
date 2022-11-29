@@ -30,8 +30,21 @@
 
 @media only screen and (max-width: 580px) {
     .outside-img {
+        width: 300px;
+        height: 350px;
+    }
+    .right2 {
+        padding-top: 40px;
+    }
+    .rightt {
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .outside-img {
         width: 280px;
-        height: 310px;
+        height: 270px;
     }
     .right2 {
         padding-top: 40px;

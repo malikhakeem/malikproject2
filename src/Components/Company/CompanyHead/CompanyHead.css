@@ -16,3 +16,13 @@
     flex-direction: column;
     text-align: center;
 }
+
+@media only screen and (max-width: 500px) {
+    .company-head-title1 {
+        font-size: 27px;
+    }
+    .company-head-title2 {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+}
