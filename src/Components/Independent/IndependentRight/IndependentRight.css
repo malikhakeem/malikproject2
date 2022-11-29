@@ -1,0 +1,291 @@
+.inde-absolute1 {
+    display: flex;
+    align-items: center;
+}
+
+.inde1 {
+    width: 50px;
+    height: 50px
+}
+
+.inde {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 14px;
+    background: #deddfa;
+    border-radius: 30px;
+    width: 155px;
+    padding: 8px;
+}
+
+.dev-absolute-text {
+    font-size: 14px;
+    line-height: 100%;
+    padding-top: 8px;
+}
+
+.inde-absolute-flex {
+    padding-left: 20px;
+}
+
+.inde-absolute1 {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 20px 40px 0px rgba(0, 0, 0, 0.19);
+    background: #FFFFFF;
+    width: 240px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.IndependentRight-title {
+    font-weight: 400;
+    font-size: 22.43px;
+    line-height: 30.64px;
+}
+
+.IndependentRight-title-spec {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.89px;
+    color: #718EBF;
+    padding-bottom: 20px;
+}
+
+.inde-ab {
+    position: absolute;
+    padding-top: 260px;
+    padding-left: 265px;
+}
+
+.IndependentsubRight {
+    background: #F3F7FA;
+    width: 390px;
+    padding: 25px;
+}
+
+.IndependentRight-img {
+    width: 390px;
+    height: 260px;
+}
+
+@media only screen and (max-width: 770px) {
+    .Independent-flex {
+        /* background: yellow; */
+    }
+    .inde1 {
+        width: 40px;
+        height: 40px
+    }
+    .inde {
+        font-size: 12px;
+        width: 125px;
+        padding: 8px;
+    }
+    .dev-absolute-text {
+        font-size: 13px;
+        line-height: 100%;
+        padding-top: 5px;
+    }
+    .inde-absolute-flex {
+        padding-left: 14px;
+    }
+    .inde-absolute1 {
+        /* background: blue; */
+        width: 200px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .IndependentRight-title {
+        font-size: 20px;
+    }
+    .IndependentRight-title-spec {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    .inde-ab {
+        position: absolute;
+        padding-top: 260px;
+        padding-left: 265px;
+    }
+    .IndependentsubRight {
+        background: #F3F7FA;
+        width: 330px;
+        padding: 25px;
+    }
+    .IndependentRight-img {
+        width: 330px;
+        height: 260px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .Independent-flex {
+        /* background: pink; */
+    }
+    .inde1 {
+        width: 40px;
+        height: 40px
+    }
+    .inde {
+        font-size: 11px;
+        width: 117px;
+        padding: 6px;
+    }
+    .dev-absolute-text {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    .inde-absolute-flex {
+        padding-left: 15px;
+    }
+    .inde-absolute1 {
+        /* background: blue; */
+        width: 190px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .IndependentRight-title {
+        font-size: 20px;
+    }
+    .IndependentRight-title-spec {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    .inde-ab {
+        position: absolute;
+        padding-top: 250px;
+        padding-left: 207px;
+    }
+    .IndependentsubRight {
+        background: #F3F7FA;
+        width: 300px;
+        padding: 20px;
+    }
+    .IndependentRight-img {
+        width: 300px;
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .Independent-flex {
+        padding-right: 0px;
+        padding-left: 0px;
+        /* background: green; */
+        padding-top: 180px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        /* padding-right: 150px; */
+    }
+    .Independent-flex {
+        /* background: grey; */
+    }
+    .inde1 {
+        width: 27px;
+        height: 27px
+    }
+    .inde {
+        font-size: 9px;
+        width: 95px;
+        padding: 0px;
+    }
+    .dev-absolute-text {
+        font-size: 11px;
+        padding-top: 5px;
+    }
+    .inde-absolute-flex {
+        padding-left: 10px;
+    }
+    .inde-absolute1 {
+        /* background: grey; */
+        width: 120px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .IndependentRight-title {
+        font-size: 17px;
+    }
+    .IndependentRight-title-spec {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    .inde-ab {
+        position: absolute;
+        padding-top: 210px;
+        padding-left: 150px;
+    }
+    .IndependentsubRight {
+        background: #F3F7FA;
+        width: 220px;
+        padding: 20px;
+    }
+    .IndependentRight-img {
+        width: 220px;
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Independent-flex {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        /* padding-right: 150px; */
+    }
+    .IndependentRight-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .Independent-flex {
+        /* background: red; */
+    }
+    .inde1 {
+        width: 25px;
+        height: 25px
+    }
+    .inde {
+        font-size: 9px;
+        width: 95px;
+        padding: 0px;
+    }
+    .dev-absolute-text {
+        font-size: 11px;
+        padding-top: 5px;
+    }
+    .inde-absolute-flex {
+        padding-left: 10px;
+    }
+    .inde-absolute1 {
+        /* background: blue; */
+        width: 130px;
+        padding: 6px;
+        border-radius: 10px;
+    }
+    .IndependentRight-title {
+        font-size: 17px;
+    }
+    .IndependentRight-title-spec {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    .inde-ab {
+        position: absolute;
+        padding-top: 183px;
+        padding-left: 125px;
+    }
+    .IndependentsubRight {
+        background: #F3F7FA;
+        width: 180px;
+        padding: 20px;
+    }
+    .IndependentRight-img {
+        width: 180px;
+        height: 130px;
+    }
+}

@@ -1,0 +1,143 @@
+.homeLeft-cont {}
+
+
+/* home title and description styling start */
+
+.home-tit-cont {
+    font-size: 45px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.home-desc-width {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 400px;
+}
+
+
+/* home title and description styling end */
+
+
+/* home btn styling start */
+
+.home-start {
+    font-size: 16px;
+    width: 165px;
+    height: 50px;
+    background: #FF0000;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 20px 25px 0px rgba(0, 0, 0, 0.19);
+    border-radius: 47px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.home-btn-1 {
+    padding-right: 40px;
+}
+
+.home-btn-2 {
+    display: flex;
+}
+
+.home-btn-cont {
+    display: flex;
+    padding-top: 30px;
+}
+
+.seehowitworks a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #FF0000;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.seehowitworks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* home btn styling end */
+
+
+/* home img styling start */
+
+.hdo {
+    width: 50px;
+    height: 50px;
+    background: #22D497;
+    border-radius: 50%;
+}
+
+.hdi-cont {
+    position: absolute;
+}
+
+.hdi {
+    width: 15px;
+    height: 15px;
+    padding-left: 19px;
+    padding-top: 18px;
+}
+
+.home-tit-width {
+    width: 600px;
+}
+
+
+/* home img styling end */
+
+@media only screen and (max-width: 580px) {
+    .flex {
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .home-tit-cont {
+        font-size: 35px;
+        padding-bottom: 30px;
+    }
+    .home-desc-width {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .flex {
+        /* background: blue; */
+    }
+    .home-tit-width {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .flex {
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .home-tit-cont {
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+    .home-desc-width {
+        font-size: 16px;
+        width: 335px;
+    }
+    .home-tit-width {
+        width: 280px;
+    }
+    .seehowitworks a {
+        font-size: 13px;
+    }
+    .home-start {
+        font-size: 14px;
+        width: 150px;
+        height: 50px;
+    }
+}

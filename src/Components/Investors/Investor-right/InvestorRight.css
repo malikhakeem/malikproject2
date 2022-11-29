@@ -1,0 +1,40 @@
+.investor-right-tit-cont {
+    font-weight: 900;
+    font-size: 30px;
+    color: #050505;
+}
+
+.investor-right-desc-cont {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    line-height: 19.89px;
+    padding: 20px 0px 20px 0px;
+}
+
+.investor-right {
+    padding-top: 35px;
+}
+
+.investor-width {
+    width: 400px;
+}
+
+@media only screen and (max-width: 500px) {
+    .investor-right-tit-cont {
+        font-size: 25px;
+    }
+    .investor-right-desc-cont {
+        font-size: 14px;
+        padding: 20px 0px 20px 0px;
+    }
+    .investor-right {
+        padding-top: 35px;
+    }
+    .investor-width {
+        width: 300px;
+    }
+    .googleplaystore {
+        width: 260px;
+    }
+}

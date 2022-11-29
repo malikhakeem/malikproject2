@@ -1,0 +1,226 @@
+.raising {
+    font-size: 12px;
+    font-weight: 600;
+    color: #FF0000;
+}
+
+.dev-num {
+    width: 100px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #060606;
+    font-weight: 700;
+    background: blue;
+    border-radius: 30px;
+    padding: 3px 0px 3px 16px;
+}
+
+.dev-absolute-textt {
+    font-size: 13px;
+    font-weight: 400;
+    color: #6C6C6C;
+    padding-top: 2px;
+}
+
+.developer-absolute1 {
+    display: flex;
+    background: #FFFFFF;
+    width: 270px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 25px 40px 0px rgba(0, 0, 0, 0.19);
+    /* height: 85px; */
+    border-radius: 10px;
+    padding: 5px 0px 5px 5px;
+}
+
+.developer-absolute2 {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 25px 35px 0px rgba(0, 0, 0, 0.19);
+    display: flex;
+    background: white;
+    width: 270px;
+    border-radius: 10px;
+    padding: 5px 0px 5px 5px;
+}
+
+.dev-absolute-flex {
+    padding-left: 15px;
+}
+
+.user1 {
+    width: 55px;
+    height: 55px;
+}
+
+.dev-title {
+    font-size: 31px;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.span-tit {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.dev-span {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.span-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FF0000;
+    padding-left: 10px;
+}
+
+.company-intro-text {
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+.story-intro-text {
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+.company-btn {
+    width: 330px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.story-btn {
+    width: 330px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.dev-left-cont {}
+
+.dev-left {
+    background: #F3F7FA;
+    width: 338px;
+    height: 376px;
+    padding: 30px 30px 0px 30px;
+}
+
+.developer-absolute-cont {
+    position: absolute;
+}
+
+.dev-ab {
+    position: absolute;
+    padding-top: 265px;
+    right: -220px;
+}
+
+.dev-ab2 {
+    position: absolute;
+    padding-top: 350px;
+    padding-left: 207px;
+}
+
+.company-intro-cont {
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .dev-num {
+        background: yellow;
+    }
+    .dev-left {
+        width: 228px;
+        height: 326px;
+        padding: 40px 20px 0px 20px;
+    }
+    .company-btn {
+        width: 220px;
+        height: 25px;
+        border-radius: 4px;
+    }
+    .story-btn {
+        width: 220px;
+        height: 25px;
+        border-radius: 4px;
+    }
+    .dev-title {
+        font-size: 20px;
+        font-weight: 400;
+        color: #000000;
+        padding-bottom: 10px;
+    }
+    .span-tit {
+        font-size: 20px;
+        font-weight: 700;
+        color: #000000;
+    }
+    .dev-span {
+        display: flex;
+        padding-bottom: 16px;
+    }
+    .span-text {
+        font-size: 14px;
+        font-weight: 700;
+        color: #FF0000;
+        padding-left: 10px;
+    }
+    .company-intro-text {
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    .story-intro-text {
+        font-size: 13px;
+    }
+    .raising {
+        font-size: 12px;
+        font-weight: 600;
+        color: #FF0000;
+    }
+    .dev-num {
+        width: 70px;
+        font-size: 10px;
+        font-weight: 600;
+        color: #060606;
+        font-weight: 700;
+        background: blue;
+        border-radius: 30px;
+        padding: 3px 0px 3px 16px;
+    }
+    .dev-absolute-textt {
+        font-size: 11px;
+        font-weight: 400;
+        color: #6C6C6C;
+        padding-top: 1px;
+    }
+    .developer-absolute1 {
+        width: 180px;
+        padding: 5px 0px 5px 5px;
+    }
+    .developer-absolute2 {
+        width: 180px;
+        padding: 5px 0px 5px 5px;
+    }
+    .dev-absolute-flex {
+        padding-left: 10px;
+    }
+    .user1 {
+        width: 45px;
+        height: 45px;
+    }
+    .dev-ab {
+        position: absolute;
+        padding-top: 255px;
+        right: -140px;
+    }
+    .dev-ab2 {
+        position: absolute;
+        padding-top: 325px;
+        padding-left: 130px;
+    }
+}

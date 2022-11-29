@@ -1,0 +1,128 @@
+.DealRoomLeft-title {
+    font-weight: 700;
+    font-size: 22.43px;
+    line-height: 27.88px;
+}
+
+.DealRoomLeft-info-tit {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.76px;
+    padding-bottom: 5px;
+}
+
+.Dealroom-text-area {
+    width: 334px;
+    height: 35px;
+    border: none;
+}
+
+.deal1box {
+    padding: 15px 0px 15px 0px;
+}
+
+.DealRoomLeft-info1 {
+    padding-bottom: 10px;
+}
+
+.deal2box {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.deal3box {
+    padding-bottom: 5px;
+}
+
+.DealRoomLeft {
+    background: #F3F7FA;
+    width: 338px;
+    padding: 30px;
+}
+
+.DealLeftFooter a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17.76px;
+    color: #FF0000;
+}
+
+.DealLeftFooter {
+    padding: 10px 0px 10px 0px;
+}
+
+@media only screen and (max-width: 1150px) {
+    .DealRoom-flex {
+        padding-top: 80px;
+        /* background: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .DealRoomLeft-container {
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .DealRoom-flex {
+        padding-top: 50px;
+    }
+    .DealRoom-Container {
+        padding-top: 150px;
+    }
+    .DealRoomLeft-title {
+        font-size: 20px;
+    }
+    .DealRoomLeft-info-tit {
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    .Dealroom-text-area {
+        width: 290px;
+        height: 25px;
+        border: none;
+    }
+    .deal1box {
+        padding: 15px 0px 15px 0px;
+    }
+    .DealRoomLeft-info1 {
+        padding-bottom: 10px;
+    }
+    .deal2box {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    .deal3box {
+        padding-bottom: 5px;
+    }
+    .DealRoomLeft {
+        background: #F3F7FA;
+        width: 295px;
+        padding: 15px;
+    }
+    .DealLeftFooter a {
+        font-size: 12px;
+    }
+    .DealLeftFooter {
+        padding: 10px 0px 10px 0px;
+    }
+    .deal1box {
+        width: 200px;
+        height: 35px;
+    }
+    .deal3box {
+        width: 200px;
+        height: 35px;
+    }
+    .deal4box {
+        width: 200px;
+        height: 20px;
+    }
+    .deal2box {
+        width: 260px;
+        height: 35px;
+    }
+}

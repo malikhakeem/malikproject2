@@ -1,0 +1,18 @@
+.company-head-title1 {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38.52px;
+}
+
+.company-head-title2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.89px;
+    padding-top: 10px;
+}
+
+.company-head-title-cont {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

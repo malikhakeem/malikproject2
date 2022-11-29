@@ -1,0 +1,42 @@
+/* .inside-img {
+    position: absolute;
+} */
+
+.outside-img {
+    width: 512px;
+    height: 435px;
+    background: #F5F6F8;
+    border-radius: 20px;
+    /* padding-top: 65px; */
+    /* position: relative; */
+}
+
+.right2 {
+    padding-top: 65px;
+}
+
+@media only screen and (max-width: 800px) {
+    .rightt {
+        /* background: blue; */
+    }
+    .outside-img {
+        width: 400px;
+        height: 415px;
+    }
+    .right2 {
+        padding-top: 65px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .outside-img {
+        width: 280px;
+        height: 310px;
+    }
+    .right2 {
+        padding-top: 40px;
+    }
+    .rightt {
+        padding-top: 40px;
+    }
+}

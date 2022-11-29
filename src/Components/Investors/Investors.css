@@ -1,0 +1,319 @@
+.investor1-cont {
+    background: #f4efef;
+    width: 280px;
+    padding: 20px 0px 20px 20px;
+    border-radius: 22px;
+}
+
+.mid {
+    /* position: absolute;
+    padding-left: 19px;
+    padding-top: 20px; */
+}
+
+.lop {
+    padding-top: 35px;
+}
+
+.inner {
+    position: absolute;
+    padding-left: 12px;
+    padding-top: 13px;
+}
+
+.one {
+    position: absolute;
+    padding-left: 19px;
+    padding-top: 20px;
+}
+
+.two {
+    /* position: absolute; */
+}
+
+.investor-1-tit {
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.investor-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: #111235;
+    padding-bottom: 5px;
+}
+
+.investor-work {
+    color: #6C6C6C;
+    font-weight: 400;
+    font-size: 13.5px;
+}
+
+.investor-cont {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.investor-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.investor-seemore-cont {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.investor-seemore {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FF6160;
+}
+
+.more-icon {
+    padding-left: 20px;
+}
+
+.plus {
+    font-size: 15px;
+    padding-right: 4px;
+}
+
+.shield {
+    position: absolute;
+    padding-left: 260px;
+    /* top: 0px; */
+    /* padding-top: 36.5rem; */
+}
+
+@media only screen and (max-width: 1170px) {
+    .investors {
+        /* background: red; */
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .shield {
+        position: absolute;
+        padding-left: 110px;
+        /* top: 0px; */
+        /* padding-top: 36.5rem; */
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .investors {
+        /* background: red; */
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .shield {
+        position: absolute;
+        padding-left: 260px;
+        /* top: 0px; */
+        /* padding-top: 36.5rem; */
+    }
+    /* .investor1-cont {
+        background: #f4efef;
+        width: 200px;
+        padding: 20px 0px 20px 20px;
+        border-radius: 22px;
+    } */
+}
+
+@media only screen and (max-width: 700px) {
+    .investors {
+        /* background: blue; */
+        padding: 0px 50px 0px 50px;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .investors {
+        /* background: green; */
+        padding: 0px 40px 0px 40px;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .investors {
+        /* background: pink; */
+        padding: 0px 20px 0px 20px;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .investors {
+        /* background: yellow; */
+        padding: 0px 10px 0px 10px;
+        padding-top: 50px;
+    }
+    .investor1-cont {
+        background: #f4efef;
+        width: 250px;
+        padding: 20px 0px 20px 20px;
+        border-radius: 22px;
+    }
+    .shield {
+        position: absolute;
+        padding-left: 235px;
+        /* top: 0px; */
+        /* padding-top: 36.5rem; */
+    }
+    .investor-1-tit {
+        font-size: 15px;
+        font-weight: 900;
+        padding-bottom: 20px;
+    }
+    .investor-name {
+        font-size: 12px;
+        font-weight: 600;
+        color: #111235;
+        padding-bottom: 5px;
+    }
+    .investor-work {
+        color: #6C6C6C;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .investor-seemore {
+        font-size: 13px;
+        font-weight: 400;
+        color: #FF6160;
+    }
+}
+
+@media only screen and (max-width:570px) {
+    .investors {
+        /* background: yellow; */
+        padding: 0px 10px 0px 10px;
+        padding-top: 50px;
+    }
+    .investor1-cont {
+        background: #f4efef;
+        width: 200px;
+        padding: 20px 0px 20px 20px;
+        border-radius: 22px;
+    }
+    .shield {
+        position: absolute;
+        padding-left: 180px;
+        /* top: 0px; */
+        /* padding-top: 36.5rem; */
+    }
+    .investor-1-tit {
+        font-size: 15px;
+        font-weight: 900;
+        padding-bottom: 20px;
+    }
+    .investor-name {
+        font-size: 12px;
+        font-weight: 600;
+        color: #111235;
+        padding-bottom: 3px;
+    }
+    .investor-work {
+        color: #6C6C6C;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .investor-seemore {
+        font-size: 13px;
+        font-weight: 400;
+        color: #FF6160;
+    }
+    .investor2img {
+        width: 60px;
+    }
+    .investor-cont {
+        display: flex;
+        padding-bottom: 10px;
+    }
+    .rr {
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .investors {
+        /* background: yellow; */
+        padding: 0px 0px 0px 10px;
+        padding-top: 80px;
+    }
+    .investor1-cont {
+        background: #f4efef;
+        width: 180px;
+        padding: 10px 0px 10px 10px;
+        border-radius: 22px;
+    }
+    .shield {
+        position: absolute;
+        padding-left: 160px;
+        /* top: 0px; */
+        /* padding-top: 36.5rem; */
+    }
+    .mid-img {
+        width: 30px;
+    }
+    .inner-img {
+        width: 15px;
+    }
+    .outer-img {
+        width: 55px;
+    }
+    .investor-1-tit {
+        font-size: 15px;
+        font-weight: 900;
+        padding-bottom: 20px;
+    }
+    .investor-name {
+        font-size: 11px;
+        font-weight: 600;
+        color: #111235;
+        padding-bottom: 3px;
+    }
+    .investor-work {
+        color: #6C6C6C;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .investor-seemore {
+        font-size: 12px;
+        font-weight: 400;
+        color: #FF6160;
+    }
+    .investor2img {
+        width: 60px;
+    }
+    .investor-cont {
+        display: flex;
+        padding-bottom: 10px;
+    }
+    .rr {
+        width: 33px;
+    }
+    .lop {
+        padding-top: 35px;
+    }
+    .inner {
+        position: absolute;
+        padding-left: 9px;
+        padding-top: 5px;
+    }
+    .one {
+        padding-left: 12px;
+        padding-top: 15px;
+    }
+}

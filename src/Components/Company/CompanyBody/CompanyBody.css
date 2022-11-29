@@ -1,0 +1,27 @@
+.companyBody {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+    .companyBody {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .compp {
+        width: 70px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .companyBody {
+        /* background: red; */
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .compp {
+        width: 70px;
+        height: 120px;
+    }
+}

@@ -1,0 +1,245 @@
+.num-left {}
+
+.num-mid {}
+
+.num-right {}
+
+.num-left-desc-box {
+    color: #FFFFFF;
+    background: #FF0000;
+    width: 224px;
+    font-size: 15px;
+    line-height: 18.65px;
+    font-weight: 400;
+    padding: 17.5px 10px 17.5px 10px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: 7px;
+}
+
+.num-mid-desc-box {
+    color: #FFFFFF;
+    background: #FF3648;
+    width: 226px;
+    font-size: 15px;
+    line-height: 18.65px;
+    font-weight: 400;
+    padding: 17.5px 10px 17.5px 55px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    /* margin-left: 5px; */
+}
+
+.num-right-desc-box {
+    background: #535353;
+    color: #FFFFFF;
+    width: 208px;
+    font-size: 15px;
+    line-height: 18.65px;
+    font-weight: 400;
+    padding: 35px 10px 35px 45px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: 5px;
+}
+
+.num-left {
+    display: flex;
+}
+
+.num-mid {}
+
+.num-right {}
+
+.num-left-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.86px;
+}
+
+.num-mid-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.86px;
+}
+
+.num-right-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.86px;
+}
+
+.num-left-num {
+    /* position: absolute; */
+}
+
+.ib {
+    position: absolute;
+    left: -25%;
+    /* padding-left: 490px; */
+}
+
+.ib2 {
+    position: absolute;
+    left: -28%;
+    /* left: 0px;
+    padding-left: 940px; */
+}
+
+.num-right-num {
+    /* position: absolute; */
+    /* left: 0px;
+    padding-left: 20px; */
+}
+
+.num1 {
+    width: 74px;
+    height: 140px;
+}
+
+.num2 {
+    padding-left: 2px;
+    padding-top: 2px;
+    width: 108px;
+    height: 138px;
+}
+
+.num2in {
+    width: 110px;
+    height: 140px;
+    position: absolute;
+}
+
+.num3in {
+    width: 110px;
+    height: 140px;
+    position: absolute;
+}
+
+.num3 {
+    padding-left: 5px;
+    /* padding-top: 0px; */
+    width: 100px;
+    height: 138px;
+}
+
+.num-mid {
+    padding-bottom: 0px;
+}
+
+.num-right {
+    padding-bottom: 0px;
+}
+
+.num-right-desc-cont {
+    padding-top: 5px;
+}
+
+.num-mid-desc-cont {
+    padding-top: 5px;
+}
+
+.num-left-desc-cont {
+    padding-top: 5px;
+}
+
+.num-cont {
+    /* background: yellow; */
+}
+
+.num {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mlo {
+    position: sticky;
+}
+
+@media only screen and (max-width: 1250px) {
+    .num-left {
+        /* background: yellow; */
+    }
+    .num {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .num-mid {
+        padding-bottom: 30px;
+    }
+    .num-left {
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .num-left {
+        /* background: yellow; */
+    }
+    .num {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .num-mid {
+        padding-bottom: 30px;
+    }
+    .num-left {
+        padding-bottom: 30px;
+    }
+    .num-container {
+        /* background: yellow; */
+        padding: 180px 0px 0px 0px;
+    }
+    .num-left-desc-box {
+        width: 150px;
+        font-size: 12px;
+        padding: 15.5px 10px 15.5px 10px;
+        margin-left: 7px;
+    }
+    .num-mid-desc-box {
+        width: 160px;
+        font-size: 12px;
+        padding: 15.5px 10px 15.5px 55px;
+        /* margin-left: 5px; */
+    }
+    .num-right-desc-box {
+        width: 160px;
+        font-size: 12px;
+        padding: 35px 10px 35px 50px;
+        margin-left: 5px;
+    }
+    .num1 {
+        width: 65px;
+        height: 135px;
+    }
+    .num2 {
+        padding-left: 2px;
+        padding-top: 2px;
+        width: 98px;
+        height: 133px;
+    }
+    .left-width {
+        width: 150px;
+    }
+    .num2in {
+        width: 100px;
+        height: 136px;
+        position: absolute;
+    }
+    .num3in {
+        width: 110px;
+        height: 140px;
+        position: absolute;
+    }
+    .num3 {
+        padding-left: 5px;
+        /* padding-top: 0px; */
+        width: 100px;
+        height: 138px;
+    }
+    .right-width {
+        width: 160px;
+    }
+}
