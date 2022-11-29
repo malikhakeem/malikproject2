@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/malikproject2/static/css/main.fa26b1af.css",
-    "main.js": "/malikproject2/static/js/main.4703260f.js",
+    "main.css": "/malikproject2/static/css/main.993f8c02.css",
+    "main.js": "/malikproject2/static/js/main.cc2875a4.js",
     "static/media/image 4.png": "/malikproject2/static/media/image 4.70518b806552a3fc1a55.png",
     "static/media/Rectangle 88.png": "/malikproject2/static/media/Rectangle 88.5285549876a2002128da.png",
     "static/media/akat1.jpg": "/malikproject2/static/media/akat1.a049191f498d172edb59.jpg",
@@ -10,11 +10,11 @@
     "static/media/Screenshot 2022-07-12 at 12.55 2 (1).png": "/malikproject2/static/media/Screenshot 2022-07-12 at 12.55 2 (1).b652200821f1b47c4a31.png",
     "static/media/google-play-and-apple-app-store-logos-22 1 (1).png": "/malikproject2/static/media/google-play-and-apple-app-store-logos-22 1 (1).c314754b9d05c20910b9.png",
     "index.html": "/malikproject2/index.html",
-    "main.fa26b1af.css.map": "/malikproject2/static/css/main.fa26b1af.css.map",
-    "main.4703260f.js.map": "/malikproject2/static/js/main.4703260f.js.map"
+    "main.993f8c02.css.map": "/malikproject2/static/css/main.993f8c02.css.map",
+    "main.cc2875a4.js.map": "/malikproject2/static/js/main.cc2875a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa26b1af.css",
-    "static/js/main.4703260f.js"
+    "static/css/main.993f8c02.css",
+    "static/js/main.cc2875a4.js"
   ]
 }
